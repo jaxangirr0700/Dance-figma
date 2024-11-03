@@ -1,0 +1,58 @@
+//
+footer {
+  margin-top: 73px;
+  padding-top: 98px;
+  padding-left: 118px;
+  padding-right: 118px;
+  background-image: url(/img/main.bg.png);
+  .ftr-items {
+    display: flex;
+    justify-content: space-between;
+    .ftr-item {
+      color: rgba(255, 255, 255, 1);
+      max-width: 314px;
+      .up {
+        font-size: 29px;
+        font-weight: 400;
+        line-height: 34.42px;
+        padding-bottom: 18px;
+      }
+      .sign {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        padding-bottom: 29px;
+      }
+      input {
+        width: 314px;
+        border: none;
+        padding: 16px 18px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+      }
+      .menu {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 0.5);
+        opacity: 0.8;
+      }
+      .rider {
+        padding-top: 16px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 1);
+      }
+    }
+  }
+  .contact {
+    display: flex;
+    justify-content: end;
+    padding-bottom: 24px;
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}

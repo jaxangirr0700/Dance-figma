@@ -1,0 +1,99 @@
+//
+//
+//
+.sec-for {
+  padding-top: 98px;
+  padding-bottom: 61px;
+  background-image: url(/img/sec-for-bg-img.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: end;
+  padding-left: 118px;
+  padding-right: 118px;
+  .for-left {
+    color: rgba(255, 255, 255, 1);
+    .city {
+      font-size: 65px;
+      font-weight: 400;
+      line-height: 66.75px;
+      text-align: left;
+      padding-bottom: 16px;
+      color: white !important;
+    }
+    .our {
+      opacity: 0.8;
+      width: 319px;
+      font-size: 21px;
+      font-weight: 400;
+      line-height: 24.82px;
+      text-align: left;
+    }
+    button {
+      margin-top: 29px;
+      margin-bottom: 33px;
+      color: rgba(255, 255, 255, 1);
+      padding: 11px 51px;
+      border-radius: 30px;
+      background-color: rgba(113, 64, 235, 1);
+      font-size: 18px;
+      border: none;
+
+      &:hover {
+        background-color: rgb(35, 35, 99);
+        color: rgba(113, 64, 235, 1);
+        transform: scale(1.1);
+        transition: 0.5s;
+      }
+    }
+  }
+  .for-right {
+    p {
+      color: white;
+      font-size: 107px;
+      font-weight: 400;
+      line-height: 111.19px;
+      letter-spacing: 5px;
+      text-align: right;
+    }
+  }
+}
+.for-end {
+  background-color: white;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  .end-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 30%;
+    .in {
+      padding-bottom: 27px;
+      font-size: 65px;
+      font-weight: 400;
+      line-height: 66.75px;
+      text-align: left;
+    }
+    .sub {
+      padding-bottom: 43px;
+      width: 80%;
+      font-size: 21px;
+      font-weight: 400;
+      line-height: 24.82px;
+      text-align: left;
+    }
+    .ptch {
+      background-color: rgba(245, 245, 247, 1);
+      border-radius: 20px;
+      margin-bottom: 20px;
+      padding: 7px 16px;
+    }
+  }
+  .end-box {
+    .end-card {
+      background-color: rgba(245, 245, 247, 1);
+    }
+  }
+}

@@ -1,0 +1,93 @@
+//
+.sec-five {
+  display: flex;
+  align-items: center;
+  padding: 96px 0px;
+  gap: 200px;
+  padding-left: 118px;
+  padding-right: 118px;
+  .five-text {
+    p {
+      font-size: 66px;
+      font-weight: 400;
+      line-height: 66.75px;
+      text-align: left;
+      color: rgba(46, 44, 52, 1);
+      padding-bottom: 53px;
+    }
+    button {
+      border: 1px solid gray;
+      color: rgba(73, 70, 79, 1);
+
+      background-color: white;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 12px 44px;
+      border-radius: 30px;
+      margin-top: 15px;
+      margin-bottom: 32px;
+      transition: all 0.5s;
+
+      &:hover {
+        background-color: gray;
+        color: black;
+      }
+      &:active {
+        transform: scale(1.1);
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+  .five-items {
+    .five-item {
+      p {
+        color: rgba(73, 70, 79, 1);
+
+        padding-bottom: 45px;
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 24.82px;
+      }
+    }
+  }
+}
+.five-end {
+  padding-left: 118px;
+  padding-right: 118px;
+  .mem {
+    color: rgba(73, 70, 79, 1);
+    font-size: 66px;
+    font-weight: 400;
+    line-height: 66.75px;
+    text-align: left;
+  }
+  .five-end-box {
+    display: flex;
+    
+    justify-content: space-between;
+    .five-card {
+      .its {
+        max-width: 246px;
+        font-size: 29px;
+        font-weight: 400;
+        line-height: 28.69px;
+        text-align: left;
+        padding-top: 96px;
+        padding-bottom: 20px;
+        color: rgba(73, 70, 79, 1);
+      }
+      .luna {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 24.3px;
+        text-align: left;
+        color: rgba(73, 70, 79, 1);
+      }
+    }
+  }
+}
